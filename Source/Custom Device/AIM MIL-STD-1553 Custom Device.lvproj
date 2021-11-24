@@ -55,6 +55,10 @@
 		<Item Name="Ballard MIL-STD-1553 System Explorer.lvlib" Type="Library" URL="../System Explorer/Ballard MIL-STD-1553 System Explorer.lvlib"/>
 		<Item Name="Custom Device Ballard MIL-STD-1553.xml" Type="Document" URL="../Custom Device Ballard MIL-STD-1553.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
+				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Array__ogtk.vi"/>
@@ -196,7 +200,6 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -250,11 +253,13 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Array Element TDEnum__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Get Current LV Bitness.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Current LV Bitness.vi"/>
 				<Item Name="Get Data Name from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get Header from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Header from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Last PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Last PString__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get PString__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Refnum Type Enum from Data__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Refnum Type Enum from Data__ogtk__jki_vi_tester.vi"/>
@@ -291,6 +296,7 @@
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -440,22 +446,43 @@
 				<Item Name="Type Descriptor Enumeration__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor Enumeration__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor Header__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="Type Descriptor__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Type Descriptor__ogtk__jki_vi_tester.ctl"/>
+				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
 				<Item Name="Variant to Header Info__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Variant to Header Info__ogtk__jki_vi_tester.vi"/>
 				<Item Name="VITesterUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/VITesterUtilities.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Abstract Consumer.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Consumer/Abstract Consumer/Abstract Consumer.lvclass"/>
+			<Item Name="Abstract Init Parameters.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Parameters/Abstract Init Parameters/Abstract Init Parameters.lvclass"/>
+			<Item Name="Abstract Message Queue.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message Queue/Abstract Message Queue/Abstract Message Queue.lvclass"/>
+			<Item Name="Abstract Message.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Message/Abstract Message.lvclass"/>
+			<Item Name="Abstract Producer.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Producer/Abstract Producer/Abstract Producer.lvclass"/>
+			<Item Name="Abstract Request Message.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Request Message/Abstract Request Message.lvclass"/>
+			<Item Name="Abstract Response Message.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Message/Abstract Response Message/Abstract Response Message.lvclass"/>
+			<Item Name="Address Based Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Address Based Execution Unit/Address Based Execution Unit.lvclass"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CSV Word Logger.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Logging/CSV Word Logger/CSV Word Logger.lvclass"/>
+			<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Execution Unit Factory/Execution Unit Factory.lvclass"/>
+			<Item Name="Execution Unit Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Execution Unit Factory/Execution Unit Factory.lvclass"/>
+			<Item Name="Execution Unit Information.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Controls/Execution Unit Information.ctl"/>
 			<Item Name="Execution Unit Information.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/niveristand-ballard-milStd1553-custom-device/Source/Custom Device Support/Engine/Interfaces/Controls/Execution Unit Information.ctl"/>
+			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
+			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Execution Unit/Execution Unit.lvclass"/>
+			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
 			<Item Name="Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/niveristand-ballard-milStd1553-custom-device/Source/Custom Device Support/Engine/Interfaces/Execution Unit/Execution Unit.lvclass"/>
+			<Item Name="Log Message.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Logging/Word Logging/Log Message/Log Message.lvclass"/>
+			<Item Name="Log Producer.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Logging/Word Logging/Log Producer/Log Producer.lvclass"/>
+			<Item Name="Logger Interface.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Logging/Word Logging/Logger Interface/Logger Interface.lvclass"/>
+			<Item Name="Logging Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Logging Execution Unit/Logging Execution Unit.lvclass"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -463,6 +490,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.ClientAPI" Type="Document" URL="NationalInstruments.VeriStand.ClientAPI">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
@@ -475,10 +505,23 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
+			<Item Name="Process.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+			<Item Name="Read.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Read/Read.lvclass"/>
+			<Item Name="ReadWrite.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass"/>
+			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
+			<Item Name="Rx Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Rx Execution Unit/Rx Execution Unit.lvclass"/>
+			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Shared Resources Factory/Shared Resources Factory.lvclass"/>
+			<Item Name="Shared Resources Factory.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Shared Resources Factory/Shared Resources Factory.lvclass"/>
+			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Shared Resources/Shared Resources.lvclass"/>
+			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Shared Resources/Shared Resources.lvclass"/>
+			<Item Name="Shared Resources.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Interfaces/Shared Resources/Shared Resources.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tx Execution Unit.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Git 2020/niveristand-aim-milStd1553-custom-device/Source/Custom Device Support/Engine/Implementation/Tx Execution Unit/Tx Execution Unit.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
+			<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
+			<Item Name="Write.lvclass" Type="LVClass" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -749,7 +792,6 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -778,82 +820,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Ballard MIL-STD-1553 Engine.lvlibp" Type="LVLibp" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp">
-				<Item Name="1553 Channel.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/1553 Channel.ctl"/>
-				<Item Name="Address.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Address.ctl"/>
-				<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
-				<Item Name="BTI1553LV.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/BTI1553Lib/BTI1553LV.lvlib"/>
-				<Item Name="BTICardLV.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/instr.lib/BTICardLib/BTICardLV.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Command Word.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Command Word.ctl"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Custom Device.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/Custom Device.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Device Parameters.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Device Parameters.ctl"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Direction.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Direction.ctl"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Implementation.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Implementation/Implementation.lvlib"/>
-				<Item Name="Initialization Method.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Initialization Method.ctl"/>
-				<Item Name="Interfaces.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Interfaces/Interfaces.lvlib"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LV Config Read String.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Map of Message Indexes to Tx Write Info.ctl"/>
-				<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Map of Messages to Value Indexes.ctl"/>
-				<Item Name="Message Definition.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Message Definition.ctl"/>
-				<Item Name="Message Map Key.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Message Map Key.ctl"/>
-				<Item Name="Message Type.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Message Type.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parameter Definition.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Parameter Definition.ctl"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Terminal Endpoint.ctl"/>
-				<Item Name="Terminal Name and Address.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Terminal Name and Address.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Tx Write Info.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Shared/Tx Write Info.ctl"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeristand_DataServices.dll"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="RT Driver VI.vi" Type="VI" URL="../../../Includes/Ballard MIL-STD-1553 Engine.lvlibp/Engine/Custom Device/RT Driver VI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Debug" Type="Source Distribution">

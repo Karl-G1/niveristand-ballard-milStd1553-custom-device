@@ -119,8 +119,44 @@
 		<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="1553 BC - Define a Major Frame.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Major Frame.vi"/>
+				<Item Name="1553 BC - Define a Minor Frame.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Minor Frame.vi"/>
+				<Item Name="1553 BC - Define a Transfer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Transfer.vi"/>
+				<Item Name="1553 BC - Initialize Modes.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Initialize Modes.vi"/>
+				<Item Name="1553 BC - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Start.vi"/>
+				<Item Name="1553 BC Transfer Settings.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 BC Transfer Settings.ctl"/>
+				<Item Name="1553 BITE Result.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 BITE Result.ctl"/>
+				<Item Name="1553 BM - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
+				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
+				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
+				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
+				<Item Name="1553 Buffer - Read BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Read BC or RT Buffer.vi"/>
+				<Item Name="1553 Buffer - Write BC or RT Buffer Word.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Write BC or RT Buffer Word.vi"/>
+				<Item Name="1553 Calibration - Set Bus Coupling.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Cal/1553 Calibration - Set Bus Coupling.vi"/>
+				<Item Name="1553 Couplingmodes.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Couplingmodes.ctl"/>
+				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
+				<Item Name="1553 General - ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - ErrorHandler.vi"/>
+				<Item Name="1553 General - GetErrorDescriptionCvi.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - GetErrorDescriptionCvi.vi"/>
+				<Item Name="1553 General - Initialize Device.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Initialize Device.vi"/>
+				<Item Name="1553 General - Initialize the API.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Initialize the API.vi"/>
+				<Item Name="1553 General - Obtain a Device Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Obtain a Device Reference.vi"/>
+				<Item Name="1553 General - Set API Debug Level.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Set API Debug Level.vi"/>
+				<Item Name="1553 RT - Configure a Sub-address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Sub-address.vi"/>
+				<Item Name="1553 RT - Initialize an RT.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Initialize an RT.vi"/>
+				<Item Name="1553 RT - Start All RTs.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Start All RTs.vi"/>
+				<Item Name="1553 RT Mode selection.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 RT Mode selection.ctl"/>
+				<Item Name="1553 Select Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
+				<Item Name="1553 System - Execute BIT Tests.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute BIT Tests.vi"/>
+				<Item Name="1553 System - Execute System Command.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute System Command.vi"/>
+				<Item Name="1553 Utility - Convert Debug Flags to Debug Level.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Debug Flags to Debug Level.vi"/>
+				<Item Name="1553 Utility - DLL Path Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - DLL Path Global.vi"/>
+				<Item Name="1553 Utility - Resolve and Test DLL Path.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Resolve and Test DLL Path.vi"/>
+				<Item Name="1553 Utility - RT Mode Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Mid-Level Release/1553 Utility - RT Mode Global.vi"/>
+				<Item Name="1553 Utility - Translate BIU Codes from Initialization.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Translate BIU Codes from Initialization.vi"/>
+				<Item Name="1553 Utility - Translate Device Configuration from Initialization.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Translate Device Configuration from Initialization.vi"/>
 				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="Function - Round to Nearest (N).vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Utilities/Function - Round to Nearest (N).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Absolute or Relative Path Array__ogtk.vi"/>
@@ -556,17 +592,25 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
+			<Item Name="BC Transfer Descriptor.ctl" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/BC Transfer Descriptor.ctl"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Configure Simple Frame.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Configure Simple Frame.vi"/>
+			<Item Name="Create BC Transfer and Buffer.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Create BC Transfer and Buffer.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize 1553 Module.vi"/>
+			<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize Bus Controller.vi"/>
+			<Item Name="Initialize RT.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize RT.vi"/>
+			<Item Name="Initialize Subaddress.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize Subaddress.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Module Reference.ctl" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Module Reference.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -588,12 +632,17 @@
 			<Item Name="NationalInstruments.VeriStand.XMLReader" Type="Document" URL="NationalInstruments.VeriStand.XMLReader">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read Buffer.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Read Buffer.vi"/>
+			<Item Name="Set Device Coupling.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Set Device Coupling.vi"/>
+			<Item Name="Start All.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Start All.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="VeriStandScriptingTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandScriptingTestCase/VeriStandScriptingTestCase.lvclass"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
+			<Item Name="Write All Data Words.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Write All Data Words.vi"/>
+			<Item Name="Write Data Word.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Write Data Word.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -804,8 +853,44 @@
 		<Item Name="Ballard MIL-STD-1553 Engine.lvlib" Type="Library" URL="../Engine/Ballard MIL-STD-1553 Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="1553 BC - Define a Major Frame.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Major Frame.vi"/>
+				<Item Name="1553 BC - Define a Minor Frame.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Minor Frame.vi"/>
+				<Item Name="1553 BC - Define a Transfer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Define a Transfer.vi"/>
+				<Item Name="1553 BC - Initialize Modes.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Initialize Modes.vi"/>
+				<Item Name="1553 BC - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BC/1553 BC - Start.vi"/>
+				<Item Name="1553 BC Transfer Settings.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 BC Transfer Settings.ctl"/>
+				<Item Name="1553 BITE Result.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 BITE Result.ctl"/>
+				<Item Name="1553 BM - Start.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-BM/1553 BM - Start.vi"/>
+				<Item Name="1553 Buffer - Define BC Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC Buffer Header.vi"/>
+				<Item Name="1553 Buffer - Define BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define BC or RT Buffer.vi"/>
+				<Item Name="1553 Buffer - Define RT Buffer Header.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Define RT Buffer Header.vi"/>
+				<Item Name="1553 Buffer - Read BC or RT Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Read BC or RT Buffer.vi"/>
+				<Item Name="1553 Buffer - Write BC or RT Buffer Word.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Buffer/1553 Buffer - Write BC or RT Buffer Word.vi"/>
+				<Item Name="1553 Calibration - Set Bus Coupling.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Cal/1553 Calibration - Set Bus Coupling.vi"/>
+				<Item Name="1553 Couplingmodes.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Couplingmodes.ctl"/>
+				<Item Name="1553 General - Device Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Device Reset.vi"/>
+				<Item Name="1553 General - ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - ErrorHandler.vi"/>
+				<Item Name="1553 General - GetErrorDescriptionCvi.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - GetErrorDescriptionCvi.vi"/>
+				<Item Name="1553 General - Initialize Device.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Initialize Device.vi"/>
+				<Item Name="1553 General - Initialize the API.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Initialize the API.vi"/>
+				<Item Name="1553 General - Obtain a Device Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Obtain a Device Reference.vi"/>
+				<Item Name="1553 General - Set API Debug Level.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-General/1553 General - Set API Debug Level.vi"/>
+				<Item Name="1553 RT - Configure a Sub-address.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Configure a Sub-address.vi"/>
+				<Item Name="1553 RT - Initialize an RT.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Initialize an RT.vi"/>
+				<Item Name="1553 RT - Start All RTs.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-RT/1553 RT - Start All RTs.vi"/>
+				<Item Name="1553 RT Mode selection.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 RT Mode selection.ctl"/>
+				<Item Name="1553 Select Direction.ctl" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Controls/1553 Select Direction.ctl"/>
+				<Item Name="1553 System - Execute BIT Tests.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute BIT Tests.vi"/>
+				<Item Name="1553 System - Execute System Command.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-System/1553 System - Execute System Command.vi"/>
+				<Item Name="1553 Utility - Convert Debug Flags to Debug Level.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Convert Debug Flags to Debug Level.vi"/>
+				<Item Name="1553 Utility - DLL Path Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - DLL Path Global.vi"/>
+				<Item Name="1553 Utility - Resolve and Test DLL Path.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Resolve and Test DLL Path.vi"/>
+				<Item Name="1553 Utility - RT Mode Global.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Mid-Level Release/1553 Utility - RT Mode Global.vi"/>
+				<Item Name="1553 Utility - Translate BIU Codes from Initialization.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Translate BIU Codes from Initialization.vi"/>
+				<Item Name="1553 Utility - Translate Device Configuration from Initialization.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/PCI-1553 Release/LS-Utility/1553 Utility - Translate Device Configuration from Initialization.vi"/>
 				<Item Name="BTI1553LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI1553Lib/BTI1553LV.lvlib"/>
 				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="Function - Round to Nearest (N).vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM MIL-STD-1553/AIM Utilities/Function - Round to Nearest (N).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
@@ -851,7 +936,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -862,6 +946,7 @@
 			<Item Name="1553 Channel.ctl" Type="VI" URL="../Shared/1553 Channel.ctl"/>
 			<Item Name="Address.ctl" Type="VI" URL="../Shared/Address.ctl"/>
 			<Item Name="Ballard MIL-STD-1553 Scripting.lvlib" Type="Library" URL="../Scripting/Ballard MIL-STD-1553 Scripting.lvlib"/>
+			<Item Name="BC Transfer Descriptor.ctl" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/BC Transfer Descriptor.ctl"/>
 			<Item Name="BTI1553LV.dll" Type="Document" URL="BTI1553LV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -871,6 +956,8 @@
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Check Value in Range.vim" Type="VI" URL="../Shared/Check Value in Range.vim"/>
 			<Item Name="Command Word.ctl" Type="VI" URL="../Shared/Command Word.ctl"/>
+			<Item Name="Configure Simple Frame.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Configure Simple Frame.vi"/>
+			<Item Name="Create BC Transfer and Buffer.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Create BC Transfer and Buffer.vi"/>
 			<Item Name="Create Parameter For Each Word.vi" Type="VI" URL="../Shared/Create Parameter For Each Word.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
@@ -881,6 +968,10 @@
 			<Item Name="Error Count Channel Refs.ctl" Type="VI" URL="../Shared/Error Count Channel Refs.ctl"/>
 			<Item Name="Get File MD5 Checksum.vi" Type="VI" URL="../Shared/Get File MD5 Checksum.vi"/>
 			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
+			<Item Name="Initialize 1553 Module.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize 1553 Module.vi"/>
+			<Item Name="Initialize Bus Controller.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize Bus Controller.vi"/>
+			<Item Name="Initialize RT.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize RT.vi"/>
+			<Item Name="Initialize Subaddress.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Initialize Subaddress.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Map of Message Indexes to Tx Write Info.ctl" Type="VI" URL="../Shared/Map of Message Indexes to Tx Write Info.ctl"/>
 			<Item Name="Map of Messages to Value Indexes.ctl" Type="VI" URL="../Shared/Map of Messages to Value Indexes.ctl"/>
@@ -888,6 +979,7 @@
 			<Item Name="Message Map Key.ctl" Type="VI" URL="../Shared/Message Map Key.ctl"/>
 			<Item Name="Message Type.ctl" Type="VI" URL="../Shared/Message Type.ctl"/>
 			<Item Name="MIL-STD 1553 Import.lvlib" Type="Library" URL="../Import/MIL-STD 1553 Import.lvlib"/>
+			<Item Name="Module Reference.ctl" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Module Reference.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -902,7 +994,10 @@
 			</Item>
 			<Item Name="NI VeriStand - Set Custom Device Channel Value Table_offline.vi" Type="VI" URL="../Shared/NI VeriStand - Set Custom Device Channel Value Table_offline.vi"/>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
+			<Item Name="Read Buffer.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Read Buffer.vi"/>
 			<Item Name="Rx Read Info.ctl" Type="VI" URL="../Shared/Rx Read Info.ctl"/>
+			<Item Name="Set Device Coupling.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Set Device Coupling.vi"/>
+			<Item Name="Start All.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Start All.vi"/>
 			<Item Name="String to Value.vim" Type="VI" URL="../Shared/String to Value.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -910,6 +1005,8 @@
 			<Item Name="Terminal Endpoint.ctl" Type="VI" URL="../Shared/Terminal Endpoint.ctl"/>
 			<Item Name="Tx Write Info.ctl" Type="VI" URL="../Shared/Tx Write Info.ctl"/>
 			<Item Name="Value to String.vim" Type="VI" URL="../Shared/Value to String.vim"/>
+			<Item Name="Write All Data Words.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Write All Data Words.vi"/>
+			<Item Name="Write Data Word.vi" Type="VI" URL="../../../../../AIM 1553 Examples/New Wrapped API/Write Data Word.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine" Type="Packed Library">
